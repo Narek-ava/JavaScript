@@ -1,9 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>CodeSchools</title>
-   <h1><br>
+
 /*Հայատարարել թվերի զանգված բաղկացած 100 կամայական թվերից։<br>
 <br>1. Հաշվել էլեմենտների միջին թվաբանականը։<br>
 <br>2. Հաշվել էլեմենտների ֆակտորիալների գումարը։<br>
@@ -13,46 +8,40 @@
 <br>6. Վերադարձնել նոր զանգված, որի մեջ այն էլեմենտներն են, որոնց թվանշանների արտադրյալը կենտ է։<br>
 <br>7. Վերդարձնել նոր զանգված, որի մեջ զույգ էլեմենտների երկրորդ մասն է։
 */
-</h1>
-</head>
-<body>
 
-</body>
-<script>
-  //Հայատարարել թվերի զանգված բաղկացած 100 կամայական թվերից։
-  var arr = [];
-  for(let i = 0; i < 100;i++){
-   arr.push(Math.floor(Math.random() * 51 + 10));
-   //arr.push(- 5);
-  }
-  //1. Հաշվել էլեմենտների միջին թվաբանականը։
- /* function getSum(arr) {
-        var sum = 0;
-        arr.forEach(value =>{
-            sum += value;
-        })
-        return sum;
-  }*/
-  //2. Հաշվել էլեմենտների ֆակտորիալների գումարը։
-  /*function getFact(n) {
-        return (n === 0) ? 1 : n * getFact(n - 1);
-  }
-  function getSumOfFact(arr) {
-        var sum = 0;
-        arr.forEach(value => {
-            sum += getFact(value)
-        })
-        return sum;
-  }*/
- // 3. Վերադարձնել նոր զանգված, որում հերթական էլեմենտը այդ զանգվածի համապատասխան էլեմենտի խորհանարդն է։
- /* function getCubes (arr) {
-
-        var newArr = arr.map(value => {
-               return Math.pow(value,3)
-        })
-         return newArr;
+//Հայատարարել թվերի զանգված բաղկացած 100 կամայական թվերից։
+// var arr = [];
+// for(let i = 0; i < 100;i++){
+// arr.push(Math.floor(Math.random() * 51 + 10));
+//arr.push(- 5);
+//}
+//1. Հաշվել էլեմենտների միջին թվաբանականը։
+/* function getSum(arr) {
+       var sum = 0;
+       arr.forEach(value =>{
+           sum += value;
+       })
+       return sum;
  }*/
- //4. Վերադարձնել նոր զանգված, որի յուրաքանչյուր էլեմենտը հերթական էլեմենտի քանակով պատահական թվերով լցված զանգված է։
+/*function getFact(n) {
+      return (n === 0) ? 1 : n * getFact(n - 1);
+}
+function getSumOfFact(arr) {
+      var sum = 0;
+      arr.forEach(value => {
+          sum += getFact(value)
+      })
+      return sum;
+}*/
+// 3. Վերադարձնել նոր զանգված, որում հերթական էլեմենտը այդ զանգվածի համապատասխան էլեմենտի խորհանարդն է։
+/* function getCubes (arr) {
+
+       var newArr = arr.map(value => {
+              return Math.pow(value,3)
+       })
+        return newArr;
+}*/
+//4. Վերադարձնել նոր զանգված, որի յուրաքանչյուր էլեմենտը հերթական էլեմենտի քանակով պատահական թվերով լցված զանգված է։
 /* function getArr(arr){
 
   var res = arr.map(value =>{
@@ -65,10 +54,10 @@
     })
     return res;
  }*/
- //5. Վերադարձնել նոր զանգված, որում առկա են միայն դրական զույգ թվերը։
+//5. Վերադարձնել նոր զանգված, որում առկա են միայն դրական զույգ թվերը։
 /*function getPlus(arr){
    return arr.filter(value => {
-        if (value > 0){
+        if (value > 0 ){
             return value;
         }
    })
@@ -92,6 +81,3 @@
 
     })
 }*/
-</script>
-</html>
-

@@ -1,11 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>CodeSchools</title>
-  
-    <h1>
-    	
+/*
+
 <br>Ստեղծել զանգված բաղկացած 30 էլեմենտներից, որոնցից յուրաքանչյուրը ունի հետևյալ տեսքը՝ {id: 1, name: 'Name1', salary: 100.000}, որտեղ id-ն հերթական էլեմենտի ինդեքսն է, name-ը 'Name' + էլեմենտի ինդեքս, իսկ salary-ն պատհական թիվ 100.000-350.000 միջակայքից։
 <br>
 <br>1. Հաշվել զանգվածի բոլոր էլեմենտների salary-ների գումարը։
@@ -19,12 +13,9 @@
 
 <br>4. Զանգվածի յուրաքանչյուր էլեմենտից հեռացնել id property-ն։
 <br>
-    </h1>
-</head>
-<body>
 
-</body>
-<script>
+ */
+
 // const persons = [];
 // for (let i = 0; i < 10; i++) {
 //     persons.push({
@@ -52,7 +43,7 @@
 //             persons[i] = persons[j];
 //             persons[j] = temp;
 //         }
-//     }   
+//     }
 // }
 // 3. Զանգվածից հեռացնել այն էլեմենտները, որոնց salary-ն քիչ է 200.000-ից։
 
@@ -66,21 +57,17 @@
 
 // 4. Զանգվածի յուրաքանչյուր էլեմենտից հեռացնել id property-ն։
 // for(let i = 0; i<10;i++){
-// 	// delate 
-// 	delete persons[i].id; 
-	 
+// 	// delate
+// 	delete persons[i].id;
+
 // }
 
 // function getAverageof(){
 //     var sum = 0;
 // 	for (let i = 0; i < arguments.length; i++){
 //         sum += arguments[i];
-        
+
 // 	}
 // 	return sum / arguments.length;
 
 // }
-
-</script>
-</html>
-

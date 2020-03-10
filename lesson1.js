@@ -1,43 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>CodeSchools</title>
-</head>
-<body>
- 
-    
-   
-    <br> <a href="less2.php">
-        less2
-    </a><br>
-    <a href="less3.php">
-        less3
-    </a>
-   <br> <a href="less4.php">
-        less4
-    </a>
-     <br> <a href="less5.php">
-        less5
-    </a>
-    <br> <a href="less6.php">
-        less6
-    </a>
-    <br> <a href="less7.php">
-        less7
-    </a>
-     <br> <a href="less8.php">
-        less8
-    </a>
-     <p1>   
-         <br> <a href="less9.php">
-        less9
-    </a><br>
-     <p1>
-          <br> <a href="less10.php">
-             less10
-         </a><br>
-(ռուսերեն)<br>
+/*
+(ռուսերեն)
 <br>1////////////////////////////////////////////////////////////////////////////////////<br>
 <br>https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Number
 <br>https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/String
@@ -64,17 +26,13 @@
 <br>https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Functions/Arrow_functions
 <br>https://developer.mozilla.org/ru/docs/Web/JavaScript/Closures
 <br>https://learn.javascript.ru/recursion
-<br>9///////////////////////////////////////////////////////////////////////////////////<br>
-<br>///////////////////////////////////////////////////////////////////////////////////<br><br>
-<br>10///////////////////////////////////////////////////////////////////////////////////<br><br>
-Տեսական հատվածը կարդալ հետևյալ հղումներով.
+<br>9///////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////
+10///////////////////////////////////////////////////////////////////////////////////
 https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach
 https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/map
 https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/filter
-</p1>
-</body>
-<script>
-
-</script>
-</html>
-
+11///////////////////////////////////////////////////////////////////////////////////
+https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/sort
+https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce
+*/

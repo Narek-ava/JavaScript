@@ -1,8 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>CodeSchools</title>
+/*
    <h1>1. Գրել ֆունկցիա, որը որպես արգումենտ ստանում է թվերի մատրիցա, և վերադարձնում է նրա էլեմենտների գումարը։<br>
 <br>2. Գրել ֆունկցիա, որը որպես արգումենտ կստանա թվերի զանգված և յուրաքանչյուր էլեմենտը կփոխարինի իր հակադիրով։<br>
 <br>3. Գրել ֆունկցիա, որը որպես արգումենտ կստանա թվերի զանգված և յուրաքանչյուր էլեմենտը կփոխարինի իր ֆակտորիալով։<br>
@@ -11,21 +7,18 @@
 <br>6. Գրել Ֆունկցիա, որը որպես արգումենտ ստանում է թիվ և վերադարձնում է զանգված, որը պարունակում է այդ քանակով ֆիբոնաչիի թվեր։<br>
 <br>7. deepClone(obj)<br>
 <br>8. isDeepEqual(obj1, obj2)<br>
-</h1>
-</head>
-<body>
 
-</body>
-<script>
+ */
+
 // Exercise 1
 // function getSumOf(matrix) {
 //     let sum = 0;
 //     for (let i = 0; i < matrix.length; i++) {
 //         for (let j = 0; j < matrix[i].length; j++) {
 //             sum += matrix[i][j];
-//         }        
+//         }
 //     }
-//     return sum;    
+//     return sum;
 // }
 // // Exercise 2
 // function inverseElOf(arr) {
@@ -112,7 +105,7 @@
 //     }
 //     const clone = Array.isArray(obj) ? [] : {};
 //     const keys = Object.keys(obj);
-    
+
 //     for (let key of keys) {
 //         const value = obj[key];
 //         clone[key] = isObject(value) ? value : deepClone(value);
@@ -123,7 +116,4 @@
 //     return typeof value !== 'object' || value === null;
 // }
 
-
-</script>
-</html>
 

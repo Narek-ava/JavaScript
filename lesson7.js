@@ -1,89 +1,83 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>CodeSchools</title>
+/*
   <h1>1. Գրել ֆունկցիա, որը որպես արգումենտ ստանում է թիվ, և վերադարձնում է նրա ֆակտորիալը։
 <br>2. Գրել ֆունկցիա, որը որպես արգումենտ կստանա զանգված և կվերադարձնի նոր զանգված, բաղկացած ստացված զանգվածի կենտ էլեմենտներից։
 <br>3. Գրել ֆունկցիա, որը կհաշվի կամայական քանակով արգումենտների արտադրյալը։
 <br>4. Գրել ֆունկցիա, որը որպես արգումենտ կստանա թիվ և կվերադարձնի true կամ false, կախված նրանից այն պարզ է, թե ոչ։
 <br>5. Գրել ֆունկցիա, որը որպես արգումենտ կստանա թիվ և կվերադարձնի զանգված, որում առկա են ստացված թվից փոքր ֆիբոնաչիի թվերը։</h1>>
-</head>
-<body>
 
-</body>
-<script>
-//  1. Գրել ֆունկցիա, որը որպես արգումենտ ստանում է թիվ, և վերադարձնում է նրա ֆակտորիալը։
+ */
 
-// function factorial(n) {
+// 1. Գրել ֆունկցիա, որը որպես արգումենտ ստանում է թիվ, և վերադարձնում է նրա ֆակտորիալը։
 
-// 	    var fact = 1
-//         for(let i = 1; i <= n; i++){
-//         	fact *= i;
-//         }
-//         return fact;
-//     }
-    
+function factorial(n) {
+
+    var fact = 1
+    for(let i = 1; i <= n; i++){
+        fact *= i;
+    }
+    return fact;
+}
+
 
 
 
 //2. Գրել ֆունկցիա, որը որպես արգումենտ կստանա զանգված և կվերադարձնի նոր զանգված, բաղկացած ստացված զանգվածի կենտ էլեմենտներից։
 
-     //  var arr = [10,8,26,37];
-     // function getArrOf(arr){
-     //      for(let i = 0; i <= arr.length;i++){
-     //           if (arr[i] % 2 !== 0) {
-     //               return arr[i];
-     //           }
-     //      }
-     //      }
-        
-     
-        
+var arr = [10,8,26,37];
+function getArrOf(arr){
+    for(let i = 0; i <= arr.length;i++){
+        if (arr[i] % 2 !== 0) {
+            return arr[i];
+        }
+    }
+}
+
+
+
 
 //3. Գրել ֆունկցիա, որը կհաշվի կամայական քանակով արգումենտների արտադրյալը։
-//  function getSum(){
-//     var sum = 1;
-// 	for (let i = 0; i < arguments.length; i++){
-//         sum *= arguments[i];
-        
-// 	}
-// 	return sum;
+function getSum(){
+    var sum = 1;
+    for (let i = 0; i < arguments.length; i++){
+        sum *= arguments[i];
 
-// }
+    }
+    return sum;
+
+}
 
 
 //4. Գրել ֆունկցիա, որը որպես արգումենտ կստանա թիվ և կվերադարձնի true կամ false, կախված նրանից այն պարզ է, թե ոչ։
 
-// function getPrime(n){
-     
-//      let isPrime = true;
-//     for (let j = 2; j <= Math.sqrt(n); j++) {
-//         if (n % j === 0) {
-//             return false;
-//             break;
-//         }
-//     }
-//     if (isPrime) {
-//         return true;
-//     }
-// }
+function getPrime(n){
+
+    let isPrime = true;
+    for (let j = 2; j <= Math.sqrt(n); j++) {
+        if (n % j === 0) {
+            return false;
+            break;
+        }
+    }
+    if (isPrime) {
+        return true;
+    }
+}
 
 
 //5. Գրել ֆունկցիա, որը որպես արգումենտ կստանա թիվ և կվերադարձնի զանգված, որում առկա են ստացված թվից փոքր ֆիբոնաչիի թվերը։
-// function fib(n){
-//   let arr = [0,1];
-//   for (let i = 2; i < n + 1; i++){
-//     arr.push(arr[i - 2] + arr[i -1])
-//   }
-//  return arr;
-// }
+function fib(n){
+    let arr = [0,1];
+    for (let i = 2; i < n + 1; i++){
+        arr.push(arr[i - 2] + arr[i -1])
+    }
+    return arr;
+}
 
-//  var temp ;
+var temp ;
 /////////////////////////////////////////////////////////////////////////recurcia
 function getFibonaci(n){
     if (n === 0){
-        return [];  
+        return [];
     }
     if (n === 1){
         return [0];
@@ -92,13 +86,11 @@ function getFibonaci(n){
         return [0, 1];
     }
 
-   const fib = getFibonaci(n - 1);
-   fib.push(fib[fib.length - 1] + fib[fib.length - 2]);
+    const fib = getFibonaci(n - 1);
+    fib.push(fib[fib.length - 1] + fib[fib.length - 2]);
     return fib;
 }
 
 
 
-</script>
-</html>
 

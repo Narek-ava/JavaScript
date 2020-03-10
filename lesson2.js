@@ -1,19 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>CodeSchools</title>
+/*
     <h1>Գործնական առաջադրանքներ.<br><br>
 <br>1. Տպել 100-300 միջակայքի չորսին բազմապատիկ թվերը նվազման կարգով։<br>
 <br>2. Հաշվել քսանի ֆակտորիալը և տպել այն։ (Թվի ֆակտորիալը մեկից մինչև իր արտադրյալն է։ Օրինակ՝ 4! = 1 * 2 * 3 * 4)<br>
 <br>3. Գեներացնել տասը պատահական թվեր 100-800 միջակայքից և տպել նրանցից փոքրագույնի արժեքը։<br>
 <br>4. Գեներացնել  պատահական թիվ 1000-9999 միջակայքից և տպել նրա ամենամեծ թվանշանը։</h1>
-</head>
-<body>
+*/
 
-</body>
-<script>
-    // Exercise 1
+// Exercise 1
 // for (let i = 300; i >= 100; i--) {
 //     if (i % 4 === 0) {
 //         console.log(i);
@@ -46,6 +39,4 @@
 //     }
 //     i = (i - digit) / 10;
 // }
-// console.log(`Max digit of ${num} is ${maxDigit}`);   
-</script>
-</html>
+// console.log(`Max digit of ${num} is ${maxDigit}`);
