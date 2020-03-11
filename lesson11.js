@@ -21,7 +21,7 @@ for (let i = 0; i < 10; i++){
           salary: Math.floor(Math.random() * 300000 + 100000 )
         })
 }
-console.log(arr);
+//console.log(arr);
 
 /////////////////////////////////////
 function sortName(arr){
@@ -64,4 +64,29 @@ function strLength(arr) {
     },0);
 
 }
+
 // console.log(strLength(arrString));
+
+//4. Հայատարարել զանգված, որի էլեմենտները կամայական թվեր են։ Վերադարձնել զույգ թվերի արտադրյալը։
+const numArr = [1,2,3,3,4,5,6,7,8,9];
+function getSum(arr){
+    return arr.reduce((acc,val) => {
+        val % 2 === 0? acc *= val: false;
+        return acc;
+    },1)
+}
+//console.log(getSum(numArr));
+//5. Հայտարարել զանգված բաղկացած հետևյալ տեսքի 10 օբյեկտներից՝ {id: 1, name: 'Karen', salary: 100000}։
+ //Վերադարձնել նոր օբյեկտ, որը ունի հետևյա տեսքը՝ {name: 'total', salary: 200000}, որտեղ  salary-ն բոլոր էլեմենտների salary-ների գումարն է։
+
+function getObj(arr){
+    const obj = {
+        name: 'total',
+        salary: arr.reduce((acc,val) => {
+           return acc + val.salary;
+        },0)
+    };
+    return obj;
+
+}
+//console.log(getObj(arr));
