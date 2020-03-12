@@ -10,10 +10,10 @@ function main() {
     initializeMatrix();
     putHorse();
 
-     while (isFinished()) {
-    initializeMatrix();
-    moveHorse();
-     }
+    while (isFinished()) {
+        initializeMatrix();
+        moveHorse();
+    }
     console.log(matrix);
 }
 
@@ -78,13 +78,13 @@ function canMoveTo(i, j) {
 function moveHorse() {
     let maxValue = M;
     getAvailableBoxes(currentI, currentJ).forEach((val) => {
-        if(matrix[val.i][val.j] < maxValue){
+        if (matrix[val.i][val.j] < maxValue) {
             maxValue = matrix[val.i][val.j];
             currentI = val.i;
             currentJ = val.j;
         }
     })
-            return putHorse();
+    return putHorse();
 }
 
 function isFinished() {
